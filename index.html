@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Animated Navbar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Hriteek</h1>
+        <ul>
+          <li><a data-page="home" href="#">Home</a></li>
+          <li><a data-page="contact" href="#">Contact</a></li>
+          <li><a data-page="project" href="#">Projects</a></li>
+          <div class="bubble"></div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" data-index="0">
+        <h2>Home</h2>
+      </section>
+      <section class="contact" data-index="2">
+        <h2>Contact</h2>
+      </section>
+      <section class="project" data-index="1">
+        <h2>Projects</h2>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
